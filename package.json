@@ -1,0 +1,25 @@
+{
+  "name": "blacklistify",
+  "version": "0.0.0",
+  "description": "Protect files from accidental browserify bundling",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bjoerge/blacklistify"
+  },
+  "keywords": [
+    "browserify",
+    "cache",
+    "bundle"
+  ],
+  "author": "Bjørge Næss",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bjoerge/rebundler/issues"
+  },
+  "homepage": "https://github.com/bjoerge/rebundler",
+  "dependencies": {
+    "minimatch": "^1.0.0",
+    "through2": "^0.6.3"
+  }
+}

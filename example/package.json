@@ -1,0 +1,15 @@
+{
+  "name": "blacklistify-example-project",
+  "version": "0.0.0",
+  "description": "Blacklistify example project",
+  "main": "./api.js",
+  "private": true,
+  "dependencies": {
+    "browserify": "^6.2.0"
+  },
+  "scripts": {
+    "start": "node ./api.js"
+  },
+  "author": "Bjørge Næss <bjoerge@gmail.com>",
+  "license": "MIT"
+}
