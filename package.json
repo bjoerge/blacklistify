@@ -12,6 +12,7 @@
     "blacklist",
     "transform",
     "protect",
+    "disallow",
     "bundle"
   ],
   "author": "Bjørge Næss",
