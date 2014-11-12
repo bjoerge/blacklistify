@@ -9,15 +9,17 @@
   },
   "keywords": [
     "browserify",
-    "cache",
+    "blacklist",
+    "transform",
+    "protect",
     "bundle"
   ],
   "author": "Bjørge Næss",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bjoerge/rebundler/issues"
+    "url": "https://github.com/bjoerge/blacklistify/issues"
   },
-  "homepage": "https://github.com/bjoerge/rebundler",
+  "homepage": "https://github.com/bjoerge/blacklistify",
   "dependencies": {
     "minimatch": "^1.0.0",
     "through2": "^0.6.3"
