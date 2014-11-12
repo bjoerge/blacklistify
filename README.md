@@ -61,16 +61,15 @@ Error: Caught an attempt to require "/path/to/project/super.secret.js" which is 
 browserify entry.js -t [ blacklistify ./secret.js ] > bundle.js
 ```
 
-You can specify a list offiles to blacklist
+You can specify a list of files to blacklist
 
 ``` bash
 browserify entry.js -t [ blacklistify ./secret.js ] > bundle.js
 ```
 
-Or even glob strings (matching is done with [minimatch](https://www.npmjs.org/package/minimatch)):
-
-Blacklist any file with `secret` in it
+You can even use glob strings (matching is done with [minimatch](https://www.npmjs.org/package/minimatch)):
 
 ``` bash
 browserify entry.js -t [ blacklistify '**/*secret*' ] > bundle.js
 ```
+This will blacklist any file with `secret` in it
