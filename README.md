@@ -39,7 +39,7 @@ browserify('./entry.js')
   .bundle().pipe(process.stdout);
 ```
 
-If, by accident a file matching one of the above pattern, you will get an error while bundling that looks like this:
+If, by accident, a file matching any of the above patterns is included in the bundle, you will get an error that looks like this:
 
 ```
 Error: Caught an attempt to require "/path/to/project/super.secret.js" which is blacklisted from client side bundling by the pattern "**/*.secret*" while parsing file: /path/to/project/super.secret.js
