@@ -23,7 +23,7 @@ The blacklist can contain a combination of:
 
 ``` javascript
 var browserify = require('browserify');
-var blacklistify = require('../custom');
+var blacklistify = require('blacklistify/custom');
 
 var BLACKLIST = [
   /.+\.secret\.js$/,
