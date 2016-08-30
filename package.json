@@ -1,6 +1,6 @@
 {
   "name": "blacklistify",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Protect files from accidental browserify bundling",
   "main": "index.js",
   "repository": {
